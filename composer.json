@@ -1,0 +1,10 @@
+{
+    "name": "bk/vite-php-starter",
+    "description": "Get started with Vite and PHP.",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}

@@ -1,0 +1,10 @@
+.example {
+	/**
+	 * Note that pathing is relative to the stylesheet's entrypoint,
+	 * not to this partial.
+	 */
+	background-image: url(../images/vite.svg);
+
+	width: 410px;
+	height: 404px;
+}

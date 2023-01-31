@@ -1,0 +1,21 @@
+{
+  "../images/vite.svg": {
+    "file": "assets/vite-17e50649.svg",
+    "src": "../images/vite.svg"
+  },
+  "main.css": {
+    "file": "assets/main-0570b972.css",
+    "src": "main.css"
+  },
+  "main.js": {
+    "file": "assets/main-126e6094.js",
+    "src": "main.js",
+    "isEntry": true,
+    "css": [
+      "assets/main-0570b972.css"
+    ],
+    "assets": [
+      "assets/vite-17e50649.svg"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vite-php-starter",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "dev": "VITE_PORT=5177 VITE_DEV=true concurrently -n ',' -c '#ffd32b,#7a86b8' -k 'vite' 'php -S 127.0.0.1:8000 -t public/'",
+    "dev:vite": "vite",
+    "dev:php": "php -S 127.0.0.1:8000 -t public/",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4",
+    "vite-plugin-live-reload": "^3.0.1"
+  }
+}
